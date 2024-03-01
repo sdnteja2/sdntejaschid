@@ -1,6 +1,9 @@
 <template>
   <main>
     <Navbar />
-    <ContentDoc />
+    <UContainer>
+
+      <ContentDoc />
+    </UContainer>
   </main>
 </template>

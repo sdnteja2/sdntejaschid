@@ -1,8 +1,8 @@
 ---
-title: Halaman Home
+title: Halaman Guru
 layout: default
 ---
 
-# Hello Content
+# Hello Ini Guru
 
 ini mah hanya contoh saja yaa

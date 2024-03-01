@@ -1,6 +1,6 @@
 <template>
-  <main>
+  <div>
     <Navbar />
-    <ContentDoc />
-  </main>
+    <slot />
+  </div>
 </template>

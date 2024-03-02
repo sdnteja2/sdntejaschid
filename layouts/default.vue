@@ -1,6 +1,8 @@
 <template>
-  <div>
+  <div class="py-14">
     <Navbar />
-    <slot />
+    <div>
+      <slot />
+    </div>
   </div>
 </template>

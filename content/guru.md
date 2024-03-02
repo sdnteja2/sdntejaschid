@@ -1,8 +1,0 @@
----
-title: Halaman Guru
-layout: default
----
-
-# Hello Ini Guru
-
-ini mah hanya contoh saja yaa

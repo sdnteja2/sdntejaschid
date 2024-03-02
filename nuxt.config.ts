@@ -13,6 +13,9 @@ export default defineNuxtConfig({
     '@nuxtjs/web-vitals',
     '@nuxtjs/seo',
   ],
+  ui: {
+    icons: ['ph'],
+  },
   content: {
     documentDriven: true,
 

@@ -22,7 +22,7 @@ const items = [
 </script>
 
 <template>
-  <UContainer>
+  <UContainer class="py-16">
     <UTabs :items="items" class="w-full">
       <template #default="{ item, selected }">
         <div class="flex items-center gap-2 relative truncate">

@@ -7,7 +7,26 @@
   body{
     @apply font-body ;
   }
-  h1,h2,h3,h4,h5,h6{
-    @apply font-title font-extrabold;
+  p{
+    @apply font-body text-gray-800 dark:text-gray-400;
   }
+  h1,h2,h3,h4,h5,h6{
+    @apply font-title font-extrabold text-merah-600 dark:text-merah-500;
+  }
+}
+
+.svgkanan {
+  @apply relative overflow-hidden before:absolute before:left-0 before:bg-[url('/yes.svg')] before:bg-no-repeat before:bg-left before:bg-cover before:w-full before:h-full before:-z-[1] before:transform before:-translate-x-1/2;
+}
+.svgkiri {
+  @apply relative overflow-hidden before:absolute before:right-0 before:bg-[url('/yes.svg')] before:bg-no-repeat before:bg-right before:bg-cover before:w-full before:h-full before:-z-[1] before:transform before:translate-x-1/2;
+}
+.svgtengah {
+  @apply relative  before:left-0  overflow-hidden before:absolute before:object-center before:object-contain before:opacity-70 dark:before:opacity-100 before:bg-center before:bg-[url('/yes.svg')] before:bg-no-repeat  md:before:bg-cover before:bg-contain before:w-full before:h-full before:-z-[1] before:transform;
+}
+.svgatas {
+  @apply relative overflow-hidden before:absolute before:left-0 before:bottom-0 before:bg-[url('/yes.svg')] before:bg-no-repeat before:bg-bottom before:bg-cover before:w-full before:h-full before:-z-[1] before:transform before:-translate-y-1/2;
+}
+.svgbawah {
+  @apply relative before:left-0  overflow-hidden before:absolute before:top-0  before:bg-[url('/yes.svg')] before:bg-no-repeat before:bg-top md:before:bg-cover before:bg-contain before:w-full before:h-full before:-z-[1]  before:translate-y-1/2 before:transform;
 }

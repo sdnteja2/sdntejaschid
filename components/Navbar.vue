@@ -10,9 +10,9 @@ function togglePopover(open, close) {
 <template>
   <nav>
     <header
-      class="shadow-sm fixed z-50 top-0 w-full dark:backdrop-blur-md dark:bg-opacity-70 bg-opacity-70 backdrop-blur-md bg-slate-50 dark:bg-slate-900"
+      class="shadow-sm fixed h-14 z-50 top-0 w-full  bg-slate-50 dark:bg-slate-900"
     >
-      <UContainer class=" flex justify-between h-14 mx-auto">
+      <div class="max-w-6xl flex justify-between h-14 mx-auto">
         <a rel="noopener noreferrer" href="/" aria-label="Back to homepage" title="Home" class="flex items-center">
 
           <!-- <Logo /> -->
@@ -50,7 +50,7 @@ function togglePopover(open, close) {
               <UButton color="gray" variant="ghost" trailing-icon="i-ph-list-duotone" />
               <template #panel="{ open, close }">
                 <div
-                  class="p-4 dark:backdrop-blur-md dark:bg-opacity-70 bg-opacity-70 backdrop-blur-md bg-slate-50 dark:bg-slate-950"
+                  class="p-4 bg-slate-50 dark:bg-slate-950"
                 >
                   <ContentNavigation v-slot="{ navigation }">
                     <ul class="flex flex-col  ">
@@ -69,7 +69,7 @@ function togglePopover(open, close) {
             </UPopover>
           </div>
         </div>
-      </UContainer>
+      </div>
     </header>
   </nav>
 </template>

@@ -22,15 +22,18 @@ const items = [
 </script>
 
 <template>
-  <UContainer class="py-16">
-    <UTabs :items="items" class="w-full">
+  <UContainer class="py-16 svgbawah">
+    <UTabs
+
+      :items="items" :default-index="1" class="text-base w-full"
+    >
       <template #default="{ item, selected }">
-        <div class="flex items-center gap-2 relative truncate">
+        <div class="flex items-center gap-2 relative ">
           <UIcon :name="item.icon" class="w-4 h-4 flex-shrink-0" />
 
           <span class="truncate"> {{ item.label }}</span>
 
-          <span v-if="selected" class="absolute -right-4 w-2 h-2 rounded-full bg-primary-500 dark:bg-primary-400" />
+          <span v-if="selected" class="absolute -right-4 w-2 h-2  " />
         </div>
       </template>
       <template #misi>

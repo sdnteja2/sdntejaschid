@@ -1,13 +1,7 @@
 <template>
   <!-- Testimonials -->
-  <div class="relative py-16 overflow-hidden">
-    <div class="max-w-[85rem] px-4 py-12 sm:px-6 lg:px-8 lg:py-16 mx-auto">
-      <!-- Gradients -->
-      <div aria-hidden="true" class="flex absolute start-0 -z-[1]">
-        <div class="bg-purple-200 opacity-20 blur-3xl w-[1036px] h-[300px] dark:bg-purple-900 dark:opacity-20" />
-      </div>
-      <!-- End Gradients -->
-
+  <div class="svgkiri relative overflow-hidden">
+    <UContainer class="">
       <!-- Grid -->
       <div class="lg:grid lg:grid-cols-6 lg:gap-8 lg:items-center">
         <div class="hidden lg:block lg:col-span-2">
@@ -45,7 +39,7 @@
       <!-- End Col -->
       </div>
     <!-- End Grid -->
-    </div>
+    </Ucontainer>
   </div>
 <!-- End Testimonials -->
 </template>

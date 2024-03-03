@@ -24,9 +24,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <div>
+  <div class="svgkanan">
     <!-- Hero -->
-    <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
+    <UContainer class="">
       <!-- Grid -->
       <div class="grid md:grid-cols-2 gap-6">
         <div class="">
@@ -68,7 +68,7 @@ onMounted(() => {
         <!-- End Col -->
       </div>
       <!-- End Grid -->
-    </div>
+    </UContainer>
     <!-- End Hero -->
   </div>
 </template>
